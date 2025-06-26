@@ -1,8 +1,6 @@
-# pip install streamlit pandas fuzzywuzzy metaphone openpyxl
-
 import streamlit as st
 import pandas as pd
-from fuzzywuzzy import fuzz
+from rapidfuzz import fuzz
 from metaphone import doublemetaphone
 from collections import Counter
 import re
